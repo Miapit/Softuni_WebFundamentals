@@ -3,7 +3,7 @@ body {
 }
 
 body > header:first-of-type {
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid rgb(0, 0, 0);
 	display: flex;
 	justify-content: space-between;
 }
