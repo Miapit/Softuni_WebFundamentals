@@ -1,0 +1,103 @@
+nav {
+    display: flex;
+}
+
+
+nav.main ul {
+    /* background: red; */
+    padding: 0;
+    margin: 0;
+
+}
+
+nav.main > ul {
+    display: flex;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    width: 12rem;
+}
+
+nav.main > ul > li >ul {
+    top: 100%; 
+    left: 0;
+}
+
+nav.main > ul > li >ul > li >ul{
+    top: 0; 
+    left: inherit;
+    right: 100%;
+}
+
+nav.main li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+}
+
+nav.main li:hover > ul {
+    display: block;    
+}
+
+nav.main > ul > li:not(:last-child) {
+    padding-right: 0.5rem;
+}
+
+
+nav.main a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0.3rem;
+}
+
+nav.main li:hover > a,
+nav.main a:hover{
+    background: #060;
+}
+
+#toggle, 
+#nav-toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+    html {
+        background-color: red;
+        
+    }
+    #toggle {
+        display: block;
+    }
+    
+    nav.main{
+        display: none;
+    }
+
+    #nav-toggle:checked + header nav.main {
+        display: block;
+        flex: 1 0 100%;
+    }
+
+    header nav.main {
+        background: yellow;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 800px) {
+    html {
+		background-color: blue;
+    }
+    
+    nav.main {
+        /* display: none; */
+    }
+}
+
