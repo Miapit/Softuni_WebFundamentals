@@ -1,5 +1,5 @@
 html {
-	font: 12px/1.5 Helvetica, sans-serif;
+	font: 12px/1.5 Georgia, sans-serif;
 }
 
 @media screen and (min-width: 500px) { html { font-size: 14px } }
