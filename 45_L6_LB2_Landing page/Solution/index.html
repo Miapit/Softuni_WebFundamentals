@@ -11,6 +11,7 @@
 
 <body>
     <div class="site">
+        <input type="checkbox" id="main-nav-toggle" name="main-nav-toggle">
         <header class="site-header">
             <div class="wrapper">
                 <div class="site-branding">
@@ -21,6 +22,11 @@
                         The last web agency you will ever need
                     </p>
                 </div>
+                <label for="main-nav-toggle" id="toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    Menu
+                </label>
                 <nav class="navigation main">
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -65,87 +71,220 @@
                         </span>
                     </li>
                     <li class="item">
-                            <span class="avatar">
-                                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="">
+                        </span>
+                        <span class="content">
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">CTO</span>
                             </span>
-                            <span class="content">
-                                <span class="person">
-                                    <span class="name">Genghish Khan</span>
-                                    <span class="jobtitle">CTO</span>
-                                </span>
-                                <span class="message">
-                                    Smart dude geeky, knows his stuff!
-                                </span>
+                            <span class="message">
+                                Smart dude geeky, knows his stuff!
                             </span>
-                        </li>
-                        <li class="item">
-                                <span class="avatar">
-                                    <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="">
-                                </span>
-                                <span class="content">
-                                    <span class="person">
-                                        <span class="name">Genghish Khan</span>
-                                        <span class="jobtitle">CTO</span>
-                                    </span>
-                                    <span class="message">
-                                        Smart dude geeky, knows his stuff!
-                                    </span>
-                                </span>
-                            </li>
-                            <li class="item">
-                                    <span class="avatar">
-                                        <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="">
-                                    </span>
-                                    <span class="content">
-                                        <span class="person">
-                                            <span class="name">Genghish Khan</span>
-                                            <span class="jobtitle">CTO</span>
-                                        </span>
-                                        <span class="message">
-                                            Smart dude geeky, knows his stuff!
-                                        </span>
-                                    </span>
-                                </li>
-                                <li class="item">
-                                        <span class="avatar">
-                                            <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="">
-                                        </span>
-                                        <span class="content">
-                                            <span class="person">
-                                                <span class="name">Genghish Khan</span>
-                                                <span class="jobtitle">CTO</span>
-                                            </span>
-                                            <span class="message">
-                                                Smart dude geeky, knows his stuff!
-                                            </span>
-                                        </span>
-                                    </li>
-                                    <li class="item">
-                                            <span class="avatar">
-                                                <img src="https://randomuser.me/api/portraits/men/63.jpg" alt="">
-                                            </span>
-                                            <span class="content">
-                                                <span class="person">
-                                                    <span class="name">Genghish Khan</span>
-                                                    <span class="jobtitle">CTO</span>
-                                                </span>
-                                                <span class="message">
-                                                    Smart dude geeky, knows his stuff!
-                                                </span>
-                                            </span>
-                                        </li>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="">
+                        </span>
+                        <span class="content">
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">CTO</span>
+                            </span>
+                            <span class="message">
+                                Smart dude geeky, knows his stuff!
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="">
+                        </span>
+                        <span class="content">
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">CTO</span>
+                            </span>
+                            <span class="message">
+                                Smart dude geeky, knows his stuff!
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="">
+                        </span>
+                        <span class="content">
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">CTO</span>
+                            </span>
+                            <span class="message">
+                                Smart dude geeky, knows his stuff!
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/63.jpg" alt="">
+                        </span>
+                        <span class="content">
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">CTO</span>
+                            </span>
+                            <span class="message">
+                                Smart dude geeky, knows his stuff!
+                            </span>
+                        </span>
+                    </li>
                 </ul>
             </div>
         </section>
-
-        <main class="site-content">
+        <section class="newsletter">
+            <header>
+                <h2>Sign-up to our newsletter</h2>
+            </header>
             <div class="wrapper">
-
+                <form action="#" method="POST">
+                    <p class="field">
+                        <span class="input">
+                            <input type="text">
+                            <span class="actions"></span>
+                        </span>
+                        <input type="submit" class="button" value="Subscribe">
+                    </p>
+                </form>
             </div>
-        </main>
+        </section>
+        <section class="testimonials">
+            <header>
+                <h2>Testimonials</h2>
+            </header>
+            <div class="wrapper">
+                <ul class="list-people">
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="">
+                        </span>
+                        <span class="content">
+
+                            <span class="message">
+                                The most amazingly professional and absolutely geek;
+                            </span>
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">Mongolian Emperor</span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="">
+                        </span>
+                        <span class="content">
+
+                            <span class="message">
+                                The most amazingly professional and absolutely geek;
+                            </span>
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">Mongolian Emperor</span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="">
+                        </span>
+                        <span class="content">
+
+                            <span class="message">
+                                The most amazingly professional and absolutely geek;
+                            </span>
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">Mongolian Emperor</span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="">
+                        </span>
+                        <span class="content">
+
+                            <span class="message">
+                                The most amazingly professional and absolutely geek;
+                            </span>
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">Mongolian Emperor</span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="">
+                        </span>
+                        <span class="content">
+
+                            <span class="message">
+                                The most amazingly professional and absolutely geek;
+                            </span>
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">Mongolian Emperor</span>
+                            </span>
+                        </span>
+                    </li>
+                    <li class="item">
+                        <span class="avatar">
+                            <img src="https://randomuser.me/api/portraits/men/68.jpg" alt="">
+                        </span>
+                        <span class="content">
+
+                            <span class="message">
+                                The most amazingly professional and absolutely geek;
+                            </span>
+                            <span class="person">
+                                <span class="name">Genghish Khan</span>
+                                <span class="jobtitle">Mongolian Emperor</span>
+                            </span>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </section>
         <footer class="site-footer">
             <div class="wrapper">
-
+                <section class="about">
+                    <h2>Purple Spider</h2>
+                    <p>The last web agency you will ever need. We are the most amazing of the amazing people.We are the most amazing of the amazing people.</p>
+                </section>
+                <section class="sitemap">
+                    <h6>Sitemap</h6>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </section>
+                <section class="contacts">
+                    <header>
+                        <h6>Contacts</h6>
+                    </header>
+                    <ul>
+                        <li><i class="fas fa-phone-volume"></i>  0700 12 345</li>
+                        <li><i class="fas fa-envelope"></i>office@purplespider.bg</li>
+                        <li><i class="fas fa-clock"></i>Monday - Friday: 09:00 - 18:00</li>
+                        <li><i class="fas fa-map-marked"></i>Sofia, <br /> 29 Some PLace Str.<br /> fl. 1</li>
+                    </ul>
+                </section>
             </div>
         </footer>
     </div>

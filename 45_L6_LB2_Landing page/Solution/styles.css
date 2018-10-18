@@ -1,22 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato: 400, 400i, 700, 700i|Merriweather:400, 400i, 700, 700i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 @import url('reset.css');
 @import url("typography.css");
 @import url("buttons.css");
 @import url("navigation.css");
 @import url("forms.css");
-
-
-
+@import url("elements.css");
 body {
-	padding: 5em;
-	background: #EEE;
+
 }
 
-
-header, section, main, footer {
-    border: 1px solid red;
+.wrapper {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
+.site-header p,
+.site-footer p {
+    padding: 0;
+    margin: 0;
+}
 
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
+.site-header .site-title a {
+    display: block;
+    text-decoration: none;
+    color: purple;
+    font-size: 2.5rem;
+}
 
+.site-header .site-description {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.site>section header {
+    text-align: center;
+}
+
+/* Sections - Call to action */
+
+section.call-to-action .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.call-to-action .copy {
+    flex: 0 0 35rem;
+    margin-right: 2rem;
+}
+
+section.call-to-action i.fas {
+    font-size: 9rem;
+}
+
+/* Sections - team */
+
+section.team {
+
+}
