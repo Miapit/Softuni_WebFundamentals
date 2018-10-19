@@ -58,7 +58,7 @@ nav.main ul li:hover > a {
 
 #toggle {
 	position: relative;
-	flex: 1 0 100%;
+	/* flex: 1 0 100%; */
 	align-items: center;
 	align-content: center;
 	justify-content: center;
