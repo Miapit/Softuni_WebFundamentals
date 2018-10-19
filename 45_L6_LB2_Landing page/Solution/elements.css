@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
 }
 
 .list-people li, .list-people span {
@@ -10,13 +12,19 @@
 
 .list-people li {
     list-style: none outside;
-    flex: 0 0 28%;
+    flex: 0 0 46%;
     text-align: center;
     padding: 2rem 0;
 }
 
+@media screen and (min-width: 800px) {
+    .list-people li {
+        flex: 0 0 28%;
+    }
+}
+
 .list-people .avatar {
-    width: 7rem;
+    width: 6rem;
     margin: 1rem auto;
     position: relative;
     overflow: hidden;
@@ -53,4 +61,8 @@
 
 .list-people .content > *:first-child {
 margin: 1rem 0;
+}
+
+.list-people .person .name{
+    font-weight: bold;
 }
