@@ -47,7 +47,7 @@ ul ul ul li {
 blockquote {
     border-left: 4px solid rgb(221,221,221);
     font-style: italic;
-    margin: 0 0 1.5rem 2rem;
+    margin: 0, 0, 1.5rem 2rem;
     padding: 1rem 2rem;
     position: relative;
 }
@@ -59,7 +59,7 @@ blockquote .author{
 table { 
     width: 100%;
     table-layout: fixed;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5 rem;
     border: 1px solid #CCC;
     border-spacing: 0px;
     border-collapse: collapse;

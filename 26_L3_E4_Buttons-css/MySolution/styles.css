@@ -1,0 +1,82 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+body{
+    background: #EEE
+}
+
+button {
+    background: #222222;
+    color: #EEE;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 2rem;
+    border: 0.3rem solid #222222;
+    outline: none;  
+    cursor: pointer;
+}
+
+section:nth-child(1) button{
+    background-color: #EEE;
+    color: #333;
+    border: 0.3rem solid 333;
+}
+
+section:nth-child(1) button:hover{
+    color: #155A12;
+    border: 0.3rem solid #155A12;
+}
+
+
+
+i{
+    color: white;
+    padding: 0.2rem;
+}
+/* button {
+    background-color: #222222;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 0.3rem solid black;
+
+} */
+
+/* 
+
+
+section:nth-child(1) button{
+    background: white;
+    color: black;
+    border: 0.3rem solid black;
+}
+
+section:nth-child(1) a:hover{
+    color: #155A12;
+    border: 0.3rem solid #155A12;
+    cursor: pointer;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    background: #222222;
+    padding: 1rem;
+    width: 95px;
+    padding: 12px;
+    border-radius: 1rem;
+} */
+
+
+
