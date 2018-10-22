@@ -1,0 +1,113 @@
+@import url('reset.css');
+@import url("typography.css");
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+a {
+    margin: 0.3rem;
+    text-decoration: none;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+    background: white;
+}
+
+a:active{
+    background-color: lightpink;
+}
+
+i{
+    color: black;
+    display: inline-block;
+    top: 0.8rem;
+    position: relative;
+
+}
+
+i.fa-facebook:hover{
+    color: blue;
+}
+
+i.fa-twitter:hover{
+    color: lightblue;
+}
+
+i.fa-google-plus:hover{
+    color: red;
+}
+
+i.fa-linkedin:hover{
+    color: lightblue;
+}
+
+i.fa-instagram:hover{
+    color: grey;
+}
+
+
+/* 
+
+
+
+.list-people {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.list-people li, .list-people span {
+    display: block;
+}
+
+.list-people li {
+    list-style: none outside;
+    flex: 0 0 46%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+    .list-people li {
+        flex: 0 0 28%;
+    }
+
+.list-people .avatar {
+    width: 6rem;
+    margin: 1rem auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 1rem 0 rgba(0, 0, 0, 0.4);
+}
+
+.list-people .avatar:before,
+.list-people .avatar:after {
+    display: block;
+    content: '';
+    
+}
+
+.list-people .avatar:before {
+    padding-top: 100%;
+}
+
+.list-people .avatar:after {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 5;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5) inset;
+}
+
+.list-people .avatar img {
+    display: block;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: auto;
+} */
