@@ -2,19 +2,6 @@
 @import url("typography.css");
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 
-a {
-    margin: 0.3rem;
-    text-decoration: none;
-    color: white;
-    width: 3rem;
-    height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid black;
-    display: inline-block;
-    background: white;
-}
-
 a:active{
     background-color: lightpink;
 }
@@ -22,39 +9,37 @@ a:active{
 i{
     color: black;
     display: inline-block;
-    top: 0.8rem;
     position: relative;
 
 }
 
-i.fa-facebook:hover{
+a.avatar:hover {
+    box-shadow: none;
+}
+
+a.avatar:hover i.fa-facebook{
     color: blue;
 }
 
-i.fa-twitter:hover{
+a.avatar:hover i.fa-twitter{
     color: lightblue;
 }
 
-i.fa-google-plus:hover{
+a.avatar:hover i.fa-google-plus{
     color: red;
 }
 
-i.fa-linkedin:hover{
+a.avatar:hover i.fa-linkedin{
     color: lightblue;
 }
 
-i.fa-instagram:hover{
+a.avatar:hover i.fa-instagram{
     color: grey;
 }
 
-
-/* 
-
-
-
 .list-people {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: left; */
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -66,23 +51,26 @@ i.fa-instagram:hover{
 
 .list-people li {
     list-style: none outside;
-    flex: 0 0 46%;
+    flex: 0 0 1rem;
     text-align: center;
-    padding: 2rem 0;
 }
 
-
-    .list-people li {
-        flex: 0 0 28%;
-    }
-
 .list-people .avatar {
-    width: 6rem;
-    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    /* background: lightblue; */
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem 0.5rem;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0.2rem 1rem 0 rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    background: #DDD;
+
 }
 
 .list-people .avatar:before,
@@ -93,7 +81,7 @@ i.fa-instagram:hover{
 }
 
 .list-people .avatar:before {
-    padding-top: 100%;
+    padding-top: 1rem;
 }
 
 .list-people .avatar:after {
@@ -110,4 +98,4 @@ i.fa-instagram:hover{
     top: 0; left: 0;
     width: 100%;
     height: auto;
-} */
+}
