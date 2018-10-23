@@ -1,0 +1,91 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+/* Reset CSS */
+
+html {
+    box-sizing: border-box
+}
+
+*, *::before, *:after{
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Main CSS */
+
+i {
+    color: black;
+}
+
+.list-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.list-icons li {
+    list-style: none;
+    flex: 0 0 1rem;
+    text-align: center;
+}
+
+.list-icons .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem 0.5rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    background: rgba(220, 220, 220, 0.4);
+}
+
+.list-icons .icon:after {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 5;
+    border-radius: 50%;
+    border: 1px solid rgba(200, 200, 200, 0.4);
+    box-shadow: 0 0 0 0.4rem rgba(255, 255, 255, 0.5) inset;
+    content: '';
+}
+
+/* Hover and Active states */
+
+a.icon:hover {
+    box-shadow: none;
+}
+
+a.icon:hover i.fa-facebook{
+    color: blue;
+}
+
+a.icon:hover i.fa-twitter{
+    color: lightblue;
+}
+
+a.icon:hover i.fa-google-plus{
+    color: red;
+}
+
+a.icon:hover i.fa-linkedin{
+    color: lightblue;
+}
+
+a.icon:hover i.fa-instagram{
+    color: grey;
+}
+
+a.icon:active{
+    background-color: lightpink;
+}
