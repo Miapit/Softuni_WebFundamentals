@@ -2,60 +2,62 @@
 @import url("typography.css");
 @import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
 
-a:active{
-    background-color: lightpink;
+div.wrapper {
+    border: 1px solid red;
 }
 
 i{
     color: black;
     display: inline-block;
     position: relative;
-
 }
 
-a.avatar:hover {
+a.icon:active{
+    background-color: lightpink;
+}
+
+a.icon:hover {
     box-shadow: none;
 }
 
-a.avatar:hover i.fa-facebook{
+a.icon:hover i.fa-facebook{
     color: blue;
 }
 
-a.avatar:hover i.fa-twitter{
+a.icon:hover i.fa-twitter{
     color: lightblue;
 }
 
-a.avatar:hover i.fa-google-plus{
+a.icon:hover i.fa-google-plus{
     color: red;
 }
 
-a.avatar:hover i.fa-linkedin{
+a.icon:hover i.fa-linkedin{
     color: lightblue;
 }
 
-a.avatar:hover i.fa-instagram{
+a.icon:hover i.fa-instagram{
     color: grey;
 }
 
-.list-people {
+.list-icons {
     display: flex;
-    /* justify-content: left; */
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
 }
 
-.list-people li, .list-people span {
+.list-icons li, .list-icons span {
     display: block;
 }
 
-.list-people li {
+.list-icons li {
     list-style: none outside;
     flex: 0 0 1rem;
     text-align: center;
 }
 
-.list-people .avatar {
+.list-icons .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,29 +75,21 @@ a.avatar:hover i.fa-instagram{
 
 }
 
-.list-people .avatar:before,
-.list-people .avatar:after {
+.list-icons .icon:before,
+.list-icons .icon:after {
     display: block;
     content: '';
     
 }
 
-.list-people .avatar:before {
+.list-icons .icon:before {
     padding-top: 1rem;
 }
 
-.list-people .avatar:after {
+.list-icons .icon:after {
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0;
     z-index: 5;
     border-radius: 50%;
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5) inset;
-}
-
-.list-people .avatar img {
-    display: block;
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: auto;
 }
