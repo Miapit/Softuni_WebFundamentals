@@ -1,0 +1,38 @@
+body {
+    background: #EEE;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    padding: 2rem;
+    background: lightgreen;
+    border-radius: 0.4rem;
+    color: #000;
+    margin: 1rem;
+    box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    flex-basis:100%;
+}
+
+header {
+    min-height: 10vh;
+}
+
+
+
+main {
+    flex: 4 1 40rem;
+    min-height: 30vh;
+}
+
+aside {
+    flex: 1 1 20rem;
+}
