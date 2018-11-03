@@ -1,0 +1,35 @@
+@media all and (max-width:480px) {
+    body { 
+        color: red;
+    }
+
+    .wrapper > header h2:after {
+        width: 37%;
+    }
+
+    .wrapper.style1 .content {
+        padding: 1rem;
+        color: grey;
+    }
+
+    .wrapper.wrapper.style2 {
+        padding: 1rem;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery > *, .spotlight > * {
+        width: 100%;
+    }
+
+    .spotlight .inner {
+        padding: 1rem;
+        color: gray;
+    }
+    
+    .spotlight.alt, .spotlight .inner{
+        text-align: center;
+    }
+}
