@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+header nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    color: orangered;
+    font-weight: bold;
+    padding: 15px;
+}
+
+header section {
+    background: url(img/header.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    text-align: center;
+    padding: 13%;
+    text-align: center;
+}
+
+.line {
+    background: orangered;
+    height: 2px;
+    width: 50px;
+    margin: 0 47%;
+}
+
+main section:nth-child(1) {
+    background: orangered;
+    text-align: center;
+    color: white;
+    padding: 4% 15%;
+}
+
+main section:nth-child(1) h1 {
+    margin-top: 0;
+}
+
+main section:nth-child(1) button {
+    background: lightgray;
+    border: none;
+    padding: 15px 28px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.white {
+    background: white;
+}
+
+.types {
+    text-align: center;
+    padding: 0% 1%;
+}
+
+.types article {
+    display: inline-block;
+    width: 21%;
+    vertical-align: top;
+    padding: 5% 1%;
+    
+}
+
+.types article i {
+    font-size: 5rem;
+    color: orangered
+}
+
+.gallery {
+    width: 100%;
+    border-bottom: 4px solid orangered;
+    border-top: 4px solid orangered;
+}
+
+.gallery img {
+    width: 25%;
+    margin: 0 32px;
+    display: inline-block;
+    border-left: 4px solid orangered;
+    border-right: 4px solid orangered;
+    margin-bottom: -6px;
+}
+
+footer {
+    text-align: center;
+    padding:  10px;
+}
+
+footer a {
+    color: orangered;
+    text-decoration: none;
+}
