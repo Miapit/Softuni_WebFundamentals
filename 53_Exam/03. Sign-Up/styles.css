@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #E9E9E9;
+}
+
+section {
+    display: flex;
+    width: 90%;
+    height: 30rem;
+    margin: 10% auto;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 7px 7px 10px -6px rgba(0,0,0,0.75);
+
+}
+
+
+
+section article {
+    box-sizing: border-box;
+    width: 50%;
+    /* display: inline-block;
+    width: 45%; */
+    /* vertical-align: top; */
+}
+
+article.image {
+    /* background: black; */
+    /* background: url('images/cover.jpg') ; */
+    background: linear-gradient(rgba(18, 21, 24, 0.5), rgba(18, 21, 24, 1.5)), url('images/cover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    text-align: center;
+
+}
+
+article.image header {
+    text-align: left;
+}
+
+input.form {
+    display: block;
+}
+
+
+label span {
+    text-transform: uppercase;
+    color: gray;
+}
+
+header {
+    padding: 1rem;
+}
+
+header h4{
+    margin: 0;
+}
+
+main {
+    padding: 10rem 0;
+}
+
+form {
+    padding: 2rem;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+    margin-bottom: 0.5rem;
+    margin-top: 0.2rem;
+    padding: 0.5rem ;
+    background: transparent;
+    font-size: 16px;
+}
+
+form a {
+    color: gray
+}
+
+input[type=submit] {
+    background: black;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 30px;
+    margin: 1rem;
+}
+
+article.form {
+    padding: 5rem;
+    background: #FAFAFA;
+}
+
+h3 {
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+i {
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+article main p {
+    margin: 0;
+}

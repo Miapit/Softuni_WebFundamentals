@@ -1,0 +1,161 @@
+body {
+    font: 16px/1.5 Helvetica, sans-serif;
+    padding: 3rem;
+}
+
+.blue {
+    color: #008CBA;
+}
+
+.first {
+    border-bottom: 2px solid #008CBA
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 0.2rem;
+}
+
+button.started {
+    background: #008CBA;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 15px;
+    color: white;
+}
+
+section.image{
+    background: url('images/slide2.jpg') ;
+    /* background: linear-gradient(rgba(18, 21, 24, 0.1), rgba(18, 21, 24, 0.1)), url('images/cover.jpg'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100%;
+    padding: 15rem;
+
+}
+
+div.header-box {
+    background: rgba(0,0,0, 0.5);
+    padding: 1rem;
+    width: 12rem;
+}
+
+
+.line {
+    background: #008CBA;
+    height: 2px;
+    width: 70px;
+    margin: 0 47%;
+}
+
+
+main {
+    text-align: center
+}
+
+.image-wrapper {
+    display: flex
+}
+
+.image-wrapper article {
+    width: 30%;
+    padding: 1rem;
+    background: white;
+    margin: 2rem;
+}
+
+.image-wrapper article img {
+    width: 80%;
+}
+
+main section {
+    background: lightgray;
+}
+
+main section button {
+    background: gray;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+
+}
+
+section.newsletter {
+    background: #393F43;
+    color: white;
+    text-align: center;
+}
+
+section.newsletter input[type='text'] {
+    background: gray;
+    border: none;
+    width: 20rem;
+    margin-bottom: 2rem;
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+
+section.newsletter input[type='submit'] {
+    background: #008CBA;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 3px;
+    color: white;
+}
+
+body > footer > section.newsletter > p.line {
+    background: white;
+}
+
+section.quicklinks {
+    background: #2F3539;
+    display: flex;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    background: #262B2F;
+    color: white;
+}
+
+section.newsletter h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+body > main > button {
+    background: gray;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 15px;
+    color: white;
+}
+
+section.quicklinks ul li{
+    list-style: none;
+}
+
+
+section.quicklinks  {
+    display: flex;
+    justify-content: space-around;
+}
+
+i {
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.space {
+    margin-bottom: 1rem;
+}
